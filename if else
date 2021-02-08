@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ float x;
+ x=50;
+ if(x>=10)
+  cout<<"x is greater or equals to 10"<<"\n";
+ else
+  cout<<"x is smaller than 10";
+ return 0;
+} 
