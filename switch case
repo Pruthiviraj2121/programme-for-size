@@ -2,22 +2,25 @@
 using namespace std;
 int main()
 {
- int x,y;
- ch choice;
+ int x,y,choice=0;
  cout<<"enter the value of x:"<<"\n";
+ cin>>x;
  cout<<"enter the value of y:"<<"\n";
+ cin>>y;
+ cout<<"pick an option : \n1same output,\n2 x>y ,\n3 x<y ,\nquit";
+ cin>>choice;
  switch(choice)
   {
   case 1:
-      if x==y
+      if (x==y)
         cout<<"both x and y are same";
         break;
    case 2:
-      if x>y
+      if (x>y)
         cout<<"x is greater than y";
         break;
    case 3:
-      if x<y
+      if (x<y)
         cout<<"x is smaller than y";
         break;
    default:
