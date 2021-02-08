@@ -1,0 +1,11 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+  float x,y,c;
+  cout<<"enter two numbers:"<<"\n";
+  cin>>x>>y;
+  c=x*y;
+  cout<<c;
+return 0;
+}
