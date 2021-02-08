@@ -1,0 +1,15 @@
+#include<iostream.h>
+using namespace std;
+
+int main()
+{
+  int x;
+  float v;
+  double y;
+  char t;
+  cout<<"size of the int"<<sizeof(x)<<'\n';
+  cout<<"size of the float"<<sizeof(v)<<'\n';
+  cout<<"size of the double"<<sizeof(y)<<'\n';
+  cout<<"size of the char"<<sizeof(t)<<'\n';
+  return 0;
+ } 
