@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int x,y;
+ ch choice;
+ cout<<"enter the value of x:"<<"\n";
+ cout<<"enter the value of y:"<<"\n";
+ switch(choice)
+  {
+  case 1:
+      if x==y
+        cout<<"both x and y are same";
+        break;
+   case 2:
+      if x>y
+        cout<<"x is greater than y";
+        break;
+   case 3:
+      if x<y
+        cout<<"x is smaller than y";
+        break;
+   default:
+        cout<<"wrong choice";
+        break;
+   }
+ return 0;
+} 
