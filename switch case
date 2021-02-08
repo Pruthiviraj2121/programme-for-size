@@ -7,7 +7,7 @@ int main()
  cin>>x;
  cout<<"enter the value of y:"<<"\n";
  cin>>y;
- cout<<"pick an option : \n1same output,\n2 x>y ,\n3 x<y ,\nquit";
+ cout<<"pick an option : \n1same output,\n2 x>y ,\n3 x<y ,\n4 quit";
  cin>>choice;
  switch(choice)
   {
@@ -23,8 +23,8 @@ int main()
       if (x<y)
         cout<<"x is smaller than y";
         break;
-   default:
-        cout<<"wrong choice";
+    case 4:
+        cout<<"quit";
         break;
    }
  return 0;
